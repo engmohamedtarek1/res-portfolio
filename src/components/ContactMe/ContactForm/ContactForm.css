@@ -1,0 +1,83 @@
+.contact-form-content {
+	width: 100%;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.name-container {
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
+}
+
+form input,
+form textarea {
+	flex: 1;
+	width: 100%;
+	font-size: 0.9rem;
+	color: #fff;
+	background: #130f2a;
+	border-radius: 0.6rem;
+	border: 1.5px solid #6751b9;
+	padding: 1rem;
+	-webkit-border-radius: 0.6rem;
+	-moz-border-radius: 0.6rem;
+	-ms-border-radius: 0.6rem;
+	-o-border-radius: 0.6rem;
+}
+
+form button {
+	font-size: 1rem;
+	font-weight: 500;
+	color: #fff;
+	border: 1.5px solid #a892fe;
+	border-radius: 0.6rem;
+	background: linear-gradient(90deg, #a892fe 0%, #8064e8 100%);
+	padding: 0.7rem;
+	transition: all 0.3s ease;
+	cursor: pointer;
+	-webkit-border-radius: 0.6rem;
+	-moz-border-radius: 0.6rem;
+	-ms-border-radius: 0.6rem;
+	-o-border-radius: 0.6rem;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+}
+
+form button:hover {
+	color: #a892fe;
+	background: transparent;
+}
+
+@media (max-width: 458px) {
+	.name-container {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	form input,
+	form textarea {
+		padding: 0.6rem;
+		border-radius: 0.3rem;
+		-webkit-border-radius: 0.3rem;
+		-moz-border-radius: 0.3rem;
+		-ms-border-radius: 0.3rem;
+		-o-border-radius: 0.3rem;
+	}
+
+	form button {
+		font-size: 0.9rem;
+		padding: 0.7rem;
+		border-radius: 0.3rem;
+		-webkit-border-radius: 0.3rem;
+		-moz-border-radius: 0.3rem;
+		-ms-border-radius: 0.3rem;
+		-o-border-radius: 0.3rem;
+	}
+}
