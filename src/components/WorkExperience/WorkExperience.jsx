@@ -7,16 +7,16 @@ import Carousel from 'nuka-carousel';
 function WorkExperience() {
 	var slidesCount = 2;
 	function callWidth() {
-		if(window.innerWidth >= 1024) slidesCount = 2
-		else slidesCount = 1
+		if (window.innerWidth >= 1024) slidesCount = 2;
+		else slidesCount = 1;
 
-		return slidesCount
+		return slidesCount;
 	}
 
-	callWidth()
+	callWidth();
 
 	return (
-		<div className="experience-container">
+		<div className="experience-container" id="experience">
 			<h5>Work Experience</h5>
 
 			<div className="experience-content">

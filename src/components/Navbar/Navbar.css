@@ -40,6 +40,13 @@
 	width: 100%;
 }
 
+a:visited,
+a:checked,
+a {
+	text-decoration: none;
+	color: white;
+}
+
 .hire-button {
 	padding: 13px 35px;
 	background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);

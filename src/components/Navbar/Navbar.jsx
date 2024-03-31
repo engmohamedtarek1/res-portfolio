@@ -17,16 +17,20 @@ function Navbar() {
 				<div className="right">
 					<ul id="menu" className={clicked ? '#menu active' : '#menu'}>
 						<li>
-							<a className="menu-item">Home</a>
+							<a className="menu-item" href="#main">
+								Home
+							</a>
 						</li>
 						<li>
-							<a className="menu-item">Skills</a>
+							<a className="menu-item" href="#skills">
+								Skills
+							</a>
 						</li>
 						<li>
-							<a className="menu-item">Work Experience</a>
+							<a className="menu-item" href='#experience'>Work Experience</a>
 						</li>
 						<li>
-							<a className="menu-item">Contact me</a>
+							<a className="menu-item" href='#contact'>Contact me</a>
 						</li>
 						<li>
 							<button className="hire-button">Hire Me</button>

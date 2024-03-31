@@ -12,7 +12,7 @@ function Skills() {
 	};
 
 	return (
-		<div className="skills-container">
+		<div className="skills-container" id="skills">
 			<p className="skills-text">Technical Proficiency</p>
 
 			<div className="skills-content">
@@ -29,8 +29,7 @@ function Skills() {
 								}}
 							/>
 						);
-					})}
-					z{' '}
+					})}{' '}
 				</div>
 
 				<div className="skills-info">
